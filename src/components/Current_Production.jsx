@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-// import Map from "./assets/map.png";
+import Map from "../assets/map.png";
 
 const Current_Production = () => {
   return (
@@ -31,7 +31,7 @@ const Current_Production = () => {
           </a>
         </div>
         <img
-          src="map.png"
+          src={Map}
           alt="Map of Oil and Gas Producers in BC"
           className="max-w-7xl py-12 px-4 sm:px-6 lg:px-8 mt-15 mb-5"
         />

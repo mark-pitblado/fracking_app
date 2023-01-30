@@ -2,7 +2,7 @@ import React from "react";
 import { GiEdgeCrack } from "react-icons/gi";
 import { GiUndergroundCave } from "react-icons/gi";
 import { GiNuclearWaste } from "react-icons/gi";
-// import DrillingOverview from "public/assets/bc_map_of_fracking.png";
+import DrillingOverview from "../assets/drilling_overview.png";
 
 const steps = [
   {
@@ -61,7 +61,7 @@ export const Extraction = () => {
           </div>
           <div class="relative">
             <img
-              src="drilling_overview.png"
+              src={DrillingOverview}
               alt="Product screenshot"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
               width={2432}

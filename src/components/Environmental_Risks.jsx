@@ -1,7 +1,7 @@
 import React from "react";
 import { BsMegaphoneFill } from "react-icons/bs";
 import { RxCross1 } from "react-icons/rx";
-// import DangersOfFracking from "./assets/dangers_of_fracking.jpg";
+import DangersOfFracking from "../assets/dangers_of_fracking.jpg";
 
 const Environmental_Factors = () => {
   function toggle(elementId) {
@@ -177,7 +177,7 @@ const Environmental_Factors = () => {
           <div className="grid grid-flow-col gap-8">
             <div class="relative">
               <img
-                src="dangers_of_fracking.jpg"
+                src={DangersOfFracking}
                 alt="Dangers of Fracking"
                 className="rounded-lg bg-gray-100"
               />
