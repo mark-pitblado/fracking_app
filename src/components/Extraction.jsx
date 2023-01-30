@@ -2,7 +2,7 @@ import React from "react";
 import { GiEdgeCrack } from "react-icons/gi";
 import { GiUndergroundCave } from "react-icons/gi";
 import { GiNuclearWaste } from "react-icons/gi";
-import DrillingOverview from "../assets/drilling_overview.png";
+// import DrillingOverview from "public/assets/bc_map_of_fracking.png";
 
 const steps = [
   {
@@ -20,7 +20,7 @@ const steps = [
   {
     name: "Processing and Waste Disposal Stage",
     description:
-      "Flowback from the well contains both the gas and the liquid used to fracture the shale layer. While the flowback contains less than 1% chemical additives according to fracfocus.ca, the flowback can also contain small amounts of radioactive material. This water can either be sent to water treatment plants, or in can be injected into deep underground wells. While the water that is used in the process is dwarfed by industries such as agriculture, the amount of water used in the entire process can be significant for a town's local water supply. ",
+      "Flowback from the well contains both the gas and the liquid used to fracture the shale layer. While the flowback contains less than 1% chemical additives according to fracfocus.ca, the flowback can also contain small amounts of radioactive material. This water can either be sent to water treatment plants, or in can be injected into deep underground wells. While the water that is used in the process is dwarfed by industries such as agriculture, the amount of water used in the entire process can be significant for a town's local water supply.",
     icon: GiNuclearWaste,
   },
 ];
@@ -61,7 +61,7 @@ export const Extraction = () => {
           </div>
           <div class="relative">
             <img
-              src={DrillingOverview}
+              src="drilling_overview.png"
               alt="Product screenshot"
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
               width={2432}

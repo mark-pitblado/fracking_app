@@ -10,7 +10,7 @@ import { FaYoutube } from "react-icons/fa";
 import { BsClipboardData } from "react-icons/bs";
 import { MdLandscape } from "react-icons/md";
 import { MdOutlineWeb } from "react-icons/md";
-import Logo from "../assets/logo.png";
+// import Logo from "../assets/logo.png";
 
 const solutions = [
   {
@@ -74,7 +74,7 @@ const Header = () => {
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/">
               <span className="sr-only z-10">Your Company</span>
-              <img className="h-8 w-auto sm:h-10" src={Logo} alt="" />
+              <img className="h-8 w-auto sm:h-10" src="logo.png" alt="" />
             </a>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
@@ -155,6 +155,12 @@ const Header = () => {
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Environmental Risks
+            </a>
+            <a
+              href="/assessment"
+              className="text-base font-medium text-gray-500 hover:text-gray-900"
+            >
+              Assessment
             </a>
 
             <Popover className="relative">

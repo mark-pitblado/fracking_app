@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./components/About.jsx";
+import Assessment from "./components/Assessment.jsx";
 import Current_Production from "./components/Current_Production.jsx";
 import Environmental_Risks from "./components/Environmental_Risks.jsx";
 import Footer from "./components/Footer.jsx";
@@ -19,6 +20,7 @@ const App = () => {
       <Routes>
         <Route path="/about" element={<About />} />
         <Route path="/" element={<Landing />} />
+        <Route path="/assessment" element={<Assessment />} />
         <Route path="/current-production" element={<Current_Production />} />
         <Route path="/disclaimer" element={<EduDisclaimer />} />
         <Route path="/extraction" element={<Extraction />} />

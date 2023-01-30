@@ -1,8 +1,8 @@
 import React from "react";
-import Regulation1 from "../assets/regulation_1.jpg";
-import Regulation2 from "../assets/regulation_2.jpg";
-import Regulation3 from "../assets/regulation_3.jpg";
-import Regulation4 from "../assets/regulation_4.jpg";
+// import Regulation1 from "../assets/regulation_1.jpg";
+// import Regulation2 from "../assets/regulation_2.jpg";
+// import Regulation3 from "../assets/regulation_3.jpg";
+// import Regulation4 from "../assets/regulation_4.jpg";
 
 const features = [
   {
@@ -73,22 +73,22 @@ const Oversight = () => {
         </div>
         <div className="grid grid-flow-col grid-rows-2 gap-8">
           <img
-            src={Regulation1}
+            src="regulation_1.jpg"
             alt="A brown bear"
             className="rounded-lg bg-gray-100"
           />
           <img
-            src={Regulation2}
+            src="regulation_2.jpg"
             alt="A road in the forest"
             className="rounded-lg bg-gray-100"
           />
           <img
-            src={Regulation3}
+            src="regulation_3.jpg"
             alt="Water flowing in a stream"
             className="rounded-lg bg-gray-100"
           />
           <img
-            src={Regulation4}
+            src="regulation_4.jpg"
             alt="Power lines"
             className="rounded-lg bg-gray-100"
           />

@@ -1,6 +1,7 @@
 import React from "react";
-import { MegaphoneIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import DangersOfFracking from "../assets/dangers_of_fracking.jpg";
+import { BsMegaphoneFill } from "react-icons/bs";
+import { RxCross1 } from "react-icons/rx";
+// import DangersOfFracking from "./assets/dangers_of_fracking.jpg";
 
 const Environmental_Factors = () => {
   function toggle(elementId) {
@@ -20,7 +21,7 @@ const Environmental_Factors = () => {
             <div className="flex flex-wrap items-center justify-between">
               <div className="flex w-0 flex-1 items-center">
                 <span className="flex rounded-lg bg-violet-900 p-2">
-                  <MegaphoneIcon
+                  <BsMegaphoneFill
                     className="h-6 w-6 text-white"
                     aria-hidden="true"
                   />
@@ -48,10 +49,7 @@ const Environmental_Factors = () => {
                   onClick={() => toggle("target")}
                 >
                   <span className="sr-only">Dismiss</span>
-                  <XMarkIcon
-                    className="h-6 w-6 text-white"
-                    aria-hidden="true"
-                  />
+                  <RxCross1 className="h-6 w-6 text-white" aria-hidden="true" />
                 </button>
               </div>
             </div>
@@ -179,7 +177,7 @@ const Environmental_Factors = () => {
           <div className="grid grid-flow-col gap-8">
             <div class="relative">
               <img
-                src={DangersOfFracking}
+                src="dangers_of_fracking.jpg"
                 alt="Dangers of Fracking"
                 className="rounded-lg bg-gray-100"
               />
