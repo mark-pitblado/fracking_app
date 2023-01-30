@@ -29,7 +29,6 @@ const App = () => {
         <Route path="/oversight" element={<Oversight />} />
         <Route path="/industry" element={<Industry />} />
       </Routes>
-
       <Footer />
     </>
   );
