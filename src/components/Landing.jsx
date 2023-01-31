@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -8,10 +9,13 @@ const Landing = () => {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               This site is for educational purposes only{" "}
-              <a href="/disclaimer" className="font-semibold text-violet-700">
+              <Link
+                href="/disclaimer"
+                className="font-semibold text-violet-700"
+              >
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="text-center">
@@ -29,12 +33,12 @@ const Landing = () => {
               >
                 Discuss
               </a>
-              <a
+              <Link
                 href="/extraction"
                 className="text-base font-semibold leading-7 text-gray-900"
               >
                 Learn more <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
