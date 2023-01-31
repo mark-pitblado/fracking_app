@@ -43,8 +43,8 @@ export const Extraction = () => {
                 digging deep into the earth to extract hydrocarbons created from
                 the remains of ancient plants and animals.
               </p>
-              <p className="mt-6 text-lg leading-8 text-violet-400 italic">
-                Information for this page was sourced from the TED-X overview
+              <p className="mt-6 text-sm leading-8 text-violet-400 italic">
+                Information for this page was sourced from the TedX overview
                 video on fracking, which you can find under the resources tab.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
