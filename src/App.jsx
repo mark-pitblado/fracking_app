@@ -10,7 +10,7 @@ import Extraction from "./components/Extraction.jsx";
 import Licensing from "./components/Licensing.jsx";
 import Industry from "./components/Industry.jsx";
 import Landing from "./components/Landing.jsx";
-import { Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Oversight from "./components/Oversight.jsx";
 
 const App = () => {
