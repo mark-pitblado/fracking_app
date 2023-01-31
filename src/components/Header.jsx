@@ -74,7 +74,7 @@ const Header = () => {
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/">
-              <span className="sr-only z-10">Your Company</span>
+              <span className="sr-only z-10"></span>
               <img className="h-8 w-auto sm:h-10" src={Logo} alt="" />
             </a>
           </div>
@@ -243,7 +243,7 @@ const Header = () => {
             <div className="px-5 pt-5 pb-6">
               <div className="flex items-center justify-between">
                 <div>
-                  <img className="h-8 w-auto" src={Logo} alt="Your Company" />
+                  <img className="h-8 w-auto" src={Logo} alt="" />
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-violet-500">
