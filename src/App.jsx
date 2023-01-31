@@ -10,26 +10,36 @@ import Extraction from "./components/Extraction.jsx";
 import Licensing from "./components/Licensing.jsx";
 import Industry from "./components/Industry.jsx";
 import Landing from "./components/Landing.jsx";
-import { Routes, Route } from "react-router-dom";
+import { Router, Route, Routes } from "react-router-dom";
 import Oversight from "./components/Oversight.jsx";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/" element={<Landing />} />
-        <Route path="/assessment" element={<Assessment />} />
-        <Route path="/current-production" element={<Current_Production />} />
-        <Route path="/disclaimer" element={<EduDisclaimer />} />
-        <Route path="/extraction" element={<Extraction />} />
-        <Route path="/environmental-risks" element={<Environmental_Risks />} />
-        <Route path="/licensing" element={<Licensing />} />
-        <Route path="/oversight" element={<Oversight />} />
-        <Route path="/industry" element={<Industry />} />
-      </Routes>
-      <Footer />
+      <Router>
+        <Header />
+        <Routes>
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/" element={<Landing />} />
+          <Route exact path="/assessment" element={<Assessment />} />
+          <Route
+            exact
+            path="/current-production"
+            element={<Current_Production />}
+          />
+          <Route exact path="/disclaimer" element={<EduDisclaimer />} />
+          <Route exact path="/extraction" element={<Extraction />} />
+          <Route
+            exact
+            path="/environmental-risks"
+            element={<Environmental_Risks />}
+          />
+          <Route exact path="/licensing" element={<Licensing />} />
+          <Route exact path="/oversight" element={<Oversight />} />
+          <Route exact path="/industry" element={<Industry />} />
+        </Routes>
+        <Footer />
+      </Router>
     </>
   );
 };
