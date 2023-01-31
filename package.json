@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://fracking-app.ondigitalocean.app/",
+  "homepage": "https://fracking-app-ed2b6.ondigitalocean.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
