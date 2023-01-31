@@ -32,7 +32,7 @@ export const Extraction = () => {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">
+              <h2 className="text-lg font-semibold leading-8 tracking-tight text-violet-600">
                 Overview
               </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -52,7 +52,7 @@ export const Extraction = () => {
                   <div key={steps.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
                       <steps.icon
-                        className="absolute top-1 left-1 h-5 w-5 text-indigo-600"
+                        className="absolute top-1 left-1 h-5 w-5 text-violet-600"
                         aria-hidden="true"
                       />
                       {steps.name}
