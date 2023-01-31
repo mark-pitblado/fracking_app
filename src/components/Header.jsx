@@ -11,6 +11,7 @@ import { BsClipboardData } from "react-icons/bs";
 import { MdLandscape } from "react-icons/md";
 import { MdOutlineWeb } from "react-icons/md";
 import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const solutions = [
   {
@@ -144,12 +145,12 @@ const Header = () => {
               )}
             </Popover>
 
-            <a
-              href="/current-production"
+            <Link
+              to="/current-production"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Current Production
-            </a>
+            </Link>
             <a
               href="/environmental-risks"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
