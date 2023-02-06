@@ -130,10 +130,10 @@ const Environmental_Factors = () => {
                 Mitigation Measures
               </h4>
               <p className=" mt-4 text-gray-500">
-                Methane emissions from fracking were found to not be a major
-                contributor to methane emissions relative to other sources (3%
-                of total). New regulations will limit the amount of methane that
-                can be released from a single well, and this is expected to
+                Methane emissions into the air were not found to consitute a
+                large portion of the total methane contamination from fracking
+                (3% of total). New regulations will limit the amount of methane
+                that can be released from a single well, and this is expected to
                 reduce the total amount of methane released by half.
               </p>
             </div>
