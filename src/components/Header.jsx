@@ -69,7 +69,7 @@ function classNames(...classes) {
 
 const Header = () => {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="fixed top-0 left-0 w-full z-50 bg-white">
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -84,7 +84,7 @@ const Header = () => {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
-          <Popover.Group as="nav" className="hidden space-x-10 md:flex">
+          <Popover.Group as="nav" className="hidden z-50 space-x-10 md:flex">
             <Popover className="relative">
               {({ open }) => (
                 <>

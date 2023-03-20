@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Landing = () => {
   return (
     <>
-      <div className="relative z-0 bg-gradient-to-r from-violet-200 to-fuchsia-100 px-6 lg:px-8">
+      <div className="relative z-0 flex items-center bg-gradient-to-r min-h-screen from-sky-200 to-violet-400 px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -20,8 +20,8 @@ const Landing = () => {
               Hydraulic Fracturing in British Columbia
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              I made this site because fracfocus.ca hasn't updated their ssl,
-              and that bothered me.
+              A class project turned into an opportunity to learn more about
+              React JS.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
