@@ -4,7 +4,7 @@ const Licensing = () => {
   return (
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 text-gray-600">
-        <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl py-5">
+        <h1 className="text-3xl mt-12 font-extrabold text-gray-900 sm:text-4xl py-5">
           Licensing
         </h1>
 
