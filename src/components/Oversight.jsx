@@ -32,7 +32,7 @@ const Oversight = () => {
     <div className="bg-white">
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-8 gap-x-8 py-2 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-bold mt-20 md:mt-10 tracking-tight text-gray-900 sm:text-4xl">
             Government Oversight
           </h2>
           <p className="mt-4 text-gray-500">
@@ -71,7 +71,7 @@ const Oversight = () => {
             ))}
           </dl>
         </div>
-        <div className="grid grid-flow-col grid-rows-2 gap-8">
+        <div className="grid grid-flow-col grid-rows-2 mt-20 gap-8">
           <img
             src={Regulation1}
             alt="A brown bear"

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer class="fixed bottom-0 left-0 z-20 w-full p-8 flex-col md:flex-row bg-white border-t border-gray-200 shadow flex items-center justify-between">
+    <footer class="md:fixed bottom-0 left-0 z-20 w-full p-8 flex-col md:flex-row bg-white border-t border-gray-200 shadow flex items-center justify-between">
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
         Created with <FaHeart className="inline" /> by{" "}
         <a href="https://www.markpitblado.me" class="hover:underline">
