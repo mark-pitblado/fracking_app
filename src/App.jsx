@@ -12,10 +12,23 @@ import Industry from "./components/Industry.jsx";
 import Landing from "./components/Landing.jsx";
 import { Route, Routes } from "react-router-dom";
 import Oversight from "./components/Oversight.jsx";
+import Helmet from "react-helmet";
 
 const App = () => {
   return (
     <>
+      <Helmet>
+        <title>Hydraulic Fracturing in British Columbia</title>
+        <meta
+          name="description"
+          content="An educational website to learn React"
+        />
+        <script
+          defer
+          data-domain="understandingafracking.site"
+          src="https://analytics.markpitblado.me/js/script.js"
+        ></script>
+      </Helmet>
       <Header />
       <Routes>
         <Route exact path="/about" element={<About />} />
