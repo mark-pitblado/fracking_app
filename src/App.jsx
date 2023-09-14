@@ -14,7 +14,7 @@ import { Route, Routes } from "react-router-dom";
 import Oversight from "./components/Oversight.jsx";
 import Helmet from "react-helmet";
 
-const App = () => {
+function App() {
   return (
     <>
       <Helmet>
@@ -53,6 +53,6 @@ const App = () => {
       <Footer />
     </>
   );
-};
+}
 
 export default App;
