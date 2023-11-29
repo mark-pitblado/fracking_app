@@ -15,44 +15,76 @@ import Oversight from "./components/Oversight.jsx";
 import Helmet from "react-helmet";
 
 const App = () => {
-  return (
-    <>
-      <Helmet>
-        <title>Hydraulic Fracturing in British Columbia</title>
-        <meta
-          name="description"
-          content="An educational website to learn React"
-        />
-        <script
-          defer
-          data-domain="understandingafracking.site"
-          src="https://analytics.markpitblado.me/js/script.js"
-        ></script>
-      </Helmet>
-      <Header />
-      <Routes>
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/" element={<Landing />} />
-        <Route exact path="/assessment" element={<Assessment />} />
-        <Route
-          exact
-          path="/current-production"
-          element={<Current_Production />}
-        />
-        <Route exact path="/disclaimer" element={<EduDisclaimer />} />
-        <Route exact path="/extraction" element={<Extraction />} />
-        <Route
-          exact
-          path="/environmental-risks"
-          element={<Environmental_Risks />}
-        />
-        <Route exact path="/licensing" element={<Licensing />} />
-        <Route exact path="/oversight" element={<Oversight />} />
-        <Route exact path="/industry" element={<Industry />} />
-      </Routes>
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<Helmet>
+				<title>Hydraulic Fracturing in British Columbia</title>
+				<meta
+					name='description'
+					content='An educational website to learn React'
+				/>
+				<script
+					defer
+					data-domain='showcase2.markpitblado.me'
+					src='https://plausible.io/js/script.js'
+				></script>
+			</Helmet>
+			<Header />
+			<Routes>
+				<Route
+					exact
+					path='/about'
+					element={<About />}
+				/>
+				<Route
+					exact
+					path='/'
+					element={<Landing />}
+				/>
+				<Route
+					exact
+					path='/assessment'
+					element={<Assessment />}
+				/>
+				<Route
+					exact
+					path='/current-production'
+					element={<Current_Production />}
+				/>
+				<Route
+					exact
+					path='/disclaimer'
+					element={<EduDisclaimer />}
+				/>
+				<Route
+					exact
+					path='/extraction'
+					element={<Extraction />}
+				/>
+				<Route
+					exact
+					path='/environmental-risks'
+					element={<Environmental_Risks />}
+				/>
+				<Route
+					exact
+					path='/licensing'
+					element={<Licensing />}
+				/>
+				<Route
+					exact
+					path='/oversight'
+					element={<Oversight />}
+				/>
+				<Route
+					exact
+					path='/industry'
+					element={<Industry />}
+				/>
+			</Routes>
+			<Footer />
+		</>
+	);
 };
 
 export default App;
