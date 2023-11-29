@@ -21,7 +21,7 @@ const About = () => {
 					All components used in this website are open source. If you would like
 					to see the source code, please visit my{" "}
 					<a
-						href='https://github.com/articFox-git'
+						href='https://github.com/mark-pitblado/fracking_app'
 						className='text-violet-300 underline'
 					>
 						github
