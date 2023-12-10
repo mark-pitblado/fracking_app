@@ -21,7 +21,7 @@ Make sure you have the following tools installed on your local machine:
 #### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/arcticFox-git/fracking_app.git
+git clone https://github.com/mark-pitblado/fracking_app.git
 ```
 
 #### 2. Change working directory:
