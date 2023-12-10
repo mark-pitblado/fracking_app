@@ -1,7 +1,6 @@
 # Fracking App
 
 ![GitHub license](https://img.shields.io/github/license/arcticFox-git/fracking_app)
-[![Better Uptime Badge](https://betteruptime.com/status-badges/v1/monitor/nqkw.svg)](https://betteruptime.com/?utm_source=status_badge)
 
 This is a simple React.js site, built using [React](https://reactjs.org/), [Tailwind CSS](https://tailwindcss.com/) and [Vite](https://vitejs.dev/).
 
